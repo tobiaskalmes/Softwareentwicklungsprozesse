@@ -1,5 +1,5 @@
 \beamer@endinputifotherversion {3.23pt}
-\beamer@sectionintoc {1}{GUI}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{GUI}{2}{0}{1}
+\beamer@sectionintoc {1}{Testmanagement}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Definition}{2}{0}{1}
 \beamer@sectionintoc {2}{DL-Query}{3}{0}{2}
 \beamer@subsectionintoc {2}{1}{OWL DL}{3}{0}{2}
