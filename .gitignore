@@ -1,0 +1,11 @@
+*.aux
+*.acn
+*.bcf
+*.glo
+*.ist
+*.log
+*.out
+*.pdf
+*.run.html
+*.thm
+*.toc
