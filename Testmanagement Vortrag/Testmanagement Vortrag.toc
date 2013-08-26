@@ -10,4 +10,4 @@
 \beamer@subsectionintoc {4}{1}{Tools}{12}{0}{4}
 \beamer@subsectionintoc {4}{2}{Nutzen/Kosten}{13}{0}{4}
 \beamer@sectionintoc {5}{Empfehlungen}{15}{0}{5}
-\beamer@endinputifotherversion {3.26pt}
+\beamer@endinputifotherversion {3.23pt}
