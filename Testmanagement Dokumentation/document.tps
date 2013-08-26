@@ -11,13 +11,13 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1140
-NormalPos.bottom=477
+NormalPos.right=722
+NormalPos.bottom=690
 Class=LaTeXView
-Document=chapters\part1.tex
+Document=chapters\chapter1.tex
 
 [Frame0_View0,0]
-TopLine=0
+TopLine=10
 Cursor=409
 
 [Frame1]
@@ -29,14 +29,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1140
-NormalPos.bottom=477
+NormalPos.right=722
+NormalPos.bottom=690
 Class=LaTeXView
-Document=chapters\part2.tex
+Document=document.tex
 
 [Frame1_View0,0]
 TopLine=0
-Cursor=0
+Cursor=195
 
 [Frame2]
 Flags=0
@@ -47,14 +47,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1140
-NormalPos.bottom=477
+NormalPos.right=722
+NormalPos.bottom=690
 Class=LaTeXView
-Document=Testmanagement Vortrag.tex
+Document=chapters\title.tex
 
 [Frame2_View0,0]
 TopLine=0
-Cursor=61
+Cursor=237
 
 [SessionInfo]
 FrameCount=3
