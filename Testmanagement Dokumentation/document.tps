@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=722
-NormalPos.bottom=690
+NormalPos.right=564
+NormalPos.bottom=436
 Class=LaTeXView
 Document=chapters\chapter1.tex
 
 [Frame0_View0,0]
-TopLine=10
-Cursor=409
+TopLine=26
+Cursor=1398
 
 [Frame1]
 Flags=0
@@ -29,8 +29,8 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=722
-NormalPos.bottom=690
+NormalPos.right=564
+NormalPos.bottom=436
 Class=LaTeXView
 Document=document.tex
 
@@ -47,8 +47,8 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=722
-NormalPos.bottom=690
+NormalPos.right=564
+NormalPos.bottom=436
 Class=LaTeXView
 Document=chapters\title.tex
 
