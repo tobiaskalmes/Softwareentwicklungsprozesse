@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=564
-NormalPos.bottom=436
+NormalPos.right=722
+NormalPos.bottom=690
 Class=LaTeXView
-Document=chapters\chapter1.tex
+Document=chapters\abstract.tex
 
 [Frame0_View0,0]
-TopLine=26
-Cursor=1398
+TopLine=0
+Cursor=180
 
 [Frame1]
 Flags=0
@@ -29,14 +29,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=564
-NormalPos.bottom=436
+NormalPos.right=722
+NormalPos.bottom=690
 Class=LaTeXView
-Document=document.tex
+Document=chapters\chapter1.tex
 
 [Frame1_View0,0]
-TopLine=0
-Cursor=195
+TopLine=128
+Cursor=8051
 
 [Frame2]
 Flags=0
@@ -47,14 +47,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=564
-NormalPos.bottom=436
+NormalPos.right=722
+NormalPos.bottom=690
 Class=LaTeXView
 Document=chapters\title.tex
 
 [Frame2_View0,0]
 TopLine=0
-Cursor=237
+Cursor=108
 
 [SessionInfo]
 FrameCount=3
