@@ -59,10 +59,17 @@ Eines der Zeile des Testens ist es die Quali\"at darzustellen. Hierzu m\"ussen d
 \TODO{Beispiele! evtl. Erkl\"arung}
 
 \chapter{Testmanagementtools}
+Testmanagementtools sind ein wichtiges Werkzeug das Testmanagement zu unterst\"utzen. Diese Tools sind unverzichtbar f\"ur ein erfolgreiches Testmanagement und damit auch f\"ur eine erfolgreiche Softwareentwicklung.
+
 \section{Beispiele}
+Im folgenden werden einige Beispiele kurz erl\"autert.
+
 \subsection{HP Quality Center}
 \subsection{Testlink}
 \subsection{IBM Rational Quality Manager}
+\subsection{Redmine}
+Redmine ist eine webbasierte L\"osung, die das Tracking von Aufgaben, Features und Bugs besch\"aftigt. Redmine l\"aßt sich \"uber Plugins erweitern um beispielsweise Scrum zu unterst\"utzen.
+
 \section{Kosten und Nutzen}
 \subsection{Nutzen}
 \begin{itemize}
@@ -80,12 +87,62 @@ Eines der Zeile des Testens ist es die Quali\"at darzustellen. Hierzu m\"ussen d
 
 \chapter{Empfehlungen}
 \section{Starte Testaktivit\"aten fr\"uhzeitig}
+Auch wenn diese Empfehlung sehr offensichtlich ist wird sie dennoch von den wenigstens Projekten wirklich beachtet. Tests s fr\"uh wie m\"oglich durchzuf\"uhren kann viele Probleme bereits fr\"uhzeitig aufdecken. Zudem k\"onnen hierdurch zeitliche Probleme minimiert werden.
+
 \section{Iterative Tests}
+\TODO{machen}
+
 \section{Wiederverwendung von Testartefakten}
-\section{Verwende Anforderungstests}
+Durch die Wiederverwendung von Testartefakten kann nicht nur Zeit gespart werden. Es k\"onnen auch Resourcen gespart werden. Gerade Dinge wie das Einrichten eines Testsystems kosten oftmals viel Zeit und auch Resourcen. In vielen F\"allen kann man des Testsystem aber f\"ur viele verschiedene Tests und auch verschiedene Testiterationen verwenden.
+
+Die Wiederverwendbarkeit beschr\"ankt sich hierbei nicht auf ein Projekt. Oftmals sind Testsysteme f\"ur mehrere Projekte n\"utzlich. 
+
+Die Wiederverwendung beschr\"ankt sich hierbei aber nicht auf Testsysteme. Es k\"onnen auch Testprozesse wieder verwendet werden.
+
+Damit dies auch funktioniert muss das Testmanagement gut organisieren. Damit Artefakte wiederverwendet werden k\"onnen muss vorausschauend geplant werden wenn Artefakte erstellt werden.
+
+\section{Verwende Tests basierend auf Anforderungen}
+Testen kann in zwei Herangehensweisen unterteilt werden:
+\begin{itemize}
+	\item Validieren dass etwas macht was es soll
+	\item Versuchen herauszufinden wie man etwas kaputt macht
+\end{itemize}
+
+Der zweite Punkt ist mit Sicherheit nicht unwichtig und hilft gerade bei schwer absehbaren Szenarien Fehler zu finden, allerdings ist das Validieren der Anforderungen der wohl kritischte Punkt.
+
+Beim Validieren der Anforderungen kann eine bessere Absch\"atzung des zeitlichen Aufwandes gegeben werden. Dies erleichtert die Planung des Testvorg\"ange.
+
+Zudem kann es auch Statistiken, wie beispielsweise Testabdeckung, liefern.
+
+Das Erstellen von Testf\"allen anhand von Anforderungen und das Festhalten der Beziehung kann zu einer komplexen Aufgabe werden. Daher empfiehlt es sich dies unter zu Hilfe nahme eines Tools zu machen.
+
+Nat\"urlich ist es hierf\"ur erforderlich, dass die Anforderungen eindeutig und klar formuliert sind. Je weniger Subjektivit\"at in die Testf\"alle einfließt desto besser. Damit h\"angt dieses Verfahren stark von anderen Teilen des Entwicklunsgprozesses ab.
+
+Am effektivsten ist eine Mischung von verschiedenen Herangehensweisen. Das Validieren der Anforderungen sollte allerdings immer ein fester Bestandteil des Testmanagements sein.
+
 \section{Nutze entfernte Testresourcen}
-\section{Definieren und Durchsetzen von Flexiblen Testprozessen}
-\section{Rest der Entwicklung koordinieren und einbeziehen}
+Um Resourcenmangel entgegen zu wirken kann es n\"utzlich sein auf entfernte Resourcen zur\"uck zu greifen. Dies bringt nat\"urlich neue Herausforderungen mit sich. Entfernte Resourcen m\"ussen koordiniert werden, damit sie einen Vorteil bringen.
+
+\section{Rest der Entwicklung mit einbeziehen}
+Auch wenn es im Normalfall besser ist unbefangene Tester zu haben, die m\"oglichst nichts von dem zu testenden System wissen sollte dies keine Barriere zwischen Testern und Entwicklern erzeugen. Unter anderem ist die Kommunikation zwischen Testern und Entwicklern wichtig. Auch an dieser Stelle stellt die Verwendung von Tools einen großen Vorteil dar. Dies reicht von den Erstellen vin Bugs in einem Bug-Tracking-Tool(dem Festhalten des Fehlers) zu der M\"oglichkeit ohne großen Aufwand eine gezielte und direkte Kommunikation zwischen Bug-Ersteller und verantwortlichem Entwickler zu sichern. Es ist also wichtig diese Grenze nicht als Blockade anzusehen.
+
 \section{Kommuniziere den Status}
+Jeder Test ist nur so wertvoll wie die Informationen \"uber ihn die mitgeteilt werden. Daher ist es wichtig, dass Testreports vollst\"andig sind. Desweiteren ist es wichtig, dass die Art in der die Information weitergegeben wird dem Zweck entspricht.
+
+Beim Reporting ist es wichtig nicht starr bereits vorhandene Dokumente zu verwenden, sondern bei Bedarf diese auch anzupassen oder gar komplett neu zu erstellen. Nat\"urlich stellt dies einen Mehraufwand dar, aber dieser Mehraufwand sollte f\"ur die bessere Qualit\"at der Testreports in Kauf genommen werden.
+
+Testreports sind oft eine Entscheidungsgrundlage oder tragen wenigstens zu Entscheidungen bei, daher ist es unmso wichtiger, dass deren Qualit\"at m\"oglichst hoch ist. Was bringen die besten Tests, wenn die Testreports die Ergebnise nicht klar genug darstellen?
+
 \section{Ziele und Ergebnise fokusieren}
+Ein wichtiger Punkt beim Testmanagement ist es die Ziele im Bereich der Qualit\"at im Auge zu behalten und wie man diese effektiv und akkurat misst. Die Aufabe des Testmanagements ist es eben dies zu definieren.
+
+Nicht alle Aufgaben haben offensichtliche Erf\"ullungskriterien. Durch das Definieren dessen, was eine Aufgabe liefern soll und das Festlegen der Metriken f\"ur die Bewertung der Tests macht es leichter den Status der Aufgabe zu beobachten.
+
+Wichtig ist es auch im Bereich des Testens eine Versionierung zu verwenden. Dies schließt die Ergebnisse der Tests mit ein. Hierdurch hat man zu jeder Zeit einen \"Uberblick \"uber die Entwicklung des Systems und kann helfen Entscheidungen zu treffen.
+
 \section{Automatisierung}
+Wie es so oft der Fall ist ist Zeit meistens die knappste Resource. Hier kann Automatisierung Abhilfe schaffen. Grunds\"atzlich ist Automatisierung immer dann zu empfehlen, wenn ein Test oft durchgef\"uhrt wird. Bei einmaligen Tests macht eine Automatisierung im Allgemeinen keinen Sinn. Ausnahmen w\"aren Tests bei denen beispielsweise die selbe Aktion mit vielen verschiedenen Werten durchgef\"uhrt wird, wobei dies im Grunde ein mehrfaches Aufh\"uhren des Tests ist. Gerade bei Iterativer Entwicklung helfen automatisierte Tests. Testdriven Development stellt diese in den Vordergrund.
+
+Automatische Tests verbrauchen keine menschlichen Resourcen(nach deren Erstellung) und eignen sich wunderbar um beispielsweise \"uber Nacht oder \"uber das Wochenende durchgef\"uhrt zu werden. Man kann so beispielsweise erreichen, dass man an jedem Morgen einen aktuellen \"Uberblick \"uber den Stand des Sytems hat.
+
+Man sollte sich allerdings immer vor der Automatisierung \"uberlegen ob es sich zeitlich lohnt. Wenn das Erstellen des automatischen Testfalls den Zeitaufwand f\"ur das manuelle Durchf\"uhren \"uberschreitet k\"onnte dies ein Grund sein, der gegen eine Testautomatisierung spricht. Da sich die Softwareentwicklung immer mehr in die agile Richtung entwicklet wird Testautomatisierung immer wichtiger.
